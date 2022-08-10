@@ -1,0 +1,52 @@
+/*
+    Beatlejuice: This is the JavaScript file for the Beatlejuice webpage.
+    The file provides animations that enhance the users experience when surfing
+    the playlists.
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    left: 50%;
+    padding:0;
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+#discography {
+    transform: translateY(100px);
+    width: 100%;
+    align-items:center;
+}
+
+td {
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.album {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    display: inline;
+}
+
+.album_cover {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.column {
+    width: 100%;
+    background-color: cornflowerblue;
+}
